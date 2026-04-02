@@ -1632,7 +1632,7 @@
               </div>
               <div class="course-price-wrap">
                 <span class="price-new">7 000₽</span>
-                <span class="price-old">12 000₽</span>
+                <span class="price-old">14 000₽</span>
                 <span class="discount-reason">раннее бронирование</span>
                 <span class="price-discount">-42%</span>
               </div>
@@ -2583,7 +2583,7 @@ n8n Workflow #1 — Входящие заявки:
           <span>·</span>
           <a href="#">Контакты</a>
         </div>
-        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: rgba(255,255,255,0.2); letter-spacing: 0.1em;">ИП Морозов А.С. · Москва</span>
+        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: rgba(255,255,255,0.2); letter-spacing: 0.1em;">Москва</span>
       </div>
     </div>
   </footer>
@@ -2810,7 +2810,7 @@ n8n Workflow #1 — Входящие заявки:
     const courses = {
       n8n: {
         label: 'n8n Advanced', title: 'АВТОМАТИЗАЦИЯ БИЗНЕСА',
-        price: '7 000₽', priceOld: '12 000₽', discount: '-42%',
+        price: '7 000₽', priceOld: '14 000₽', discount: '-42%',
         accent: '#881337', accentLight: '#be123c', accentDark: '#6b0f2b',
         description: '7 уроков от первого логина до боевого AI-юриста. Поднимаешь сервер, подключаешь GPT-4 через OpenRouter без VPN, строишь агентов с памятью и сразу получаешь 3 готовых услуги для продажи клиентам. Создать бота — разовая продажа. Обслуживать инфраструктуру — пассивный доход каждый месяц.',
         timeline: ['Интерфейс & Сервер', 'Первый AI-агент', 'Домен & OpenRouter', 'Google Suite', 'Обновления & Безопасность', 'AI-Юрист кейс', 'Продажа & Масштаб'],
@@ -2940,7 +2940,7 @@ n8n Workflow #1 — Входящие заявки:
       const modalPriceOld = modalPriceNew ? modalPriceNew.nextElementSibling : null;
       const modalDiscount  = modalPriceOld ? modalPriceOld.nextElementSibling : null;
       if (modalPriceNew) modalPriceNew.textContent = data.price || '7 000₽';
-      if (modalPriceOld) modalPriceOld.textContent = data.priceOld || '12 000₽';
+      if (modalPriceOld) modalPriceOld.textContent = data.priceOld || '14 000₽';
       if (modalDiscount)  modalDiscount.textContent = data.discount || '-42%';
 
       // #12: Week timeline
